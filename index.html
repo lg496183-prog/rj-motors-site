@@ -1,18 +1,46 @@
+
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head> <!-- Google Tag Manager -->
-<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-WWB74PF3"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-</script>
-<!-- Fim Google Tag Manager -->
+<head>
+  <!-- Google Tag Manager -->
+  <script>
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-WWB74PF3');
+  </script>
+  <script>
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+  </script>
+  <!-- Fim Google Tag Manager -->
+
+  <!-- Conversão Google Ads: Contato -->
+  <script>
+    function gtag_report_conversion(url) {
+      var callback = function () {
+        if (typeof(url) !== 'undefined') {
+          window.location = url;
+        }
+      };
+
+      gtag('event', 'conversion', {
+        'send_to': 'AW-18582926261/KKOnCMap_r0dELXng51F',
+        'event_callback': callback,
+        'event_timeout': 2000
+      });
+
+      return false;
+    }
+  </script>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>RJ Motors | Oficina Mecânica em Bento Ribeiro - RJ</title>
   <meta name="description" content="RJ Motors: oficina mecânica em Bento Ribeiro, Rio de Janeiro. Mecânica geral, freios, troca de óleo, suspensão, amortecedores e muito mais. Agende pelo WhatsApp.">
   <meta name="theme-color" content="#111111">
+
   <style>
     :root{--orange:#ff7518;--dark:#101010;--panel:#1a1a1a;--muted:#bdbdbd;--white:#fff}
     *{box-sizing:border-box}
@@ -52,14 +80,25 @@
     @media(max-width:480px){.grid{grid-template-columns:1fr}.brand{font-size:1.25rem}}
   </style>
 </head>
+
 <body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WWB74PF3"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe>
+  </noscript>
+  <!-- Fim Google Tag Manager (noscript) -->
+
 <header>
   <nav class="wrap">
     <a class="brand" href="#inicio">RJ <span>MOTORS</span></a>
     <div class="navlinks">
-      <a href="#servicos">Serviços</a><a href="#sobre">A oficina</a><a href="#horarios">Horários</a><a href="#contato">Contato</a>
+      <a href="#servicos">Serviços</a>
+      <a href="#sobre">A oficina</a>
+      <a href="#horarios">Horários</a>
+      <a href="#contato">Contato</a>
     </div>
-    <a class="btn" href="https://wa.me/5521993827296?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20RJ%20Motors." target="_blank" rel="noopener">Fale conosco</a>
+    <a class="btn" href="https://wa.me/5521993827296?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20RJ%20Motors." onclick="return gtag_report_conversion(this.href)">Fale conosco</a>
   </nav>
 </header>
 
@@ -70,7 +109,7 @@
       <h1>Cuidado e confiança para o seu <span>carro.</span></h1>
       <p>Na RJ Motors, seu veículo recebe atenção e serviço de qualidade. Conte com a gente para cuidar da manutenção do seu carro.</p>
       <div class="actions">
-        <a class="btn" href="https://wa.me/5521993827296?text=Ol%C3%A1%2C%20gostaria%20de%20um%20or%C3%A7amento." target="_blank" rel="noopener">Solicitar orçamento pelo WhatsApp</a>
+        <a class="btn" href="https://wa.me/5521993827296?text=Ol%C3%A1%2C%20gostaria%20de%20um%20or%C3%A7amento." onclick="return gtag_report_conversion(this.href)">Solicitar orçamento pelo WhatsApp</a>
         <a class="btn outline" href="#servicos">Conheça nossos serviços</a>
       </div>
     </div>
@@ -96,7 +135,7 @@
       <div>
         <h2 class="section-title">Por que escolher a <span>RJ Motors?</span></h2>
         <p class="lead">Nosso compromisso é oferecer atendimento atencioso, transparência e cuidado em cada serviço.</p>
-        <a class="btn" href="https://wa.me/5521993827296?text=Ol%C3%A1%2C%20quero%20conhecer%20a%20RJ%20Motors." target="_blank" rel="noopener">Entre em contato</a>
+        <a class="btn" href="https://wa.me/5521993827296?text=Ol%C3%A1%2C%20quero%20conhecer%20a%20RJ%20Motors." onclick="return gtag_report_conversion(this.href)">Entre em contato</a>
       </div>
       <div class="info">
         <h3>RJ Motors — Oficina Mecânica</h3>
@@ -123,14 +162,19 @@
       <h2 class="section-title">Precisou de oficina? <span>Chame a RJ Motors.</span></h2>
       <p>Fale com nossa equipe pelo WhatsApp e consulte disponibilidade, serviços e orçamento.</p>
       <div class="actions" style="justify-content:center">
-        <a class="btn" href="https://wa.me/5521993827296?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20RJ%20Motors." target="_blank" rel="noopener">WhatsApp: (21) 99382-7296</a>
+        <a class="btn" href="https://wa.me/5521993827296?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20RJ%20Motors." onclick="return gtag_report_conversion(this.href)">WhatsApp: (21) 99382-7296</a>
         <a class="btn outline" href="https://www.instagram.com/oficina_rjmotors/" target="_blank" rel="noopener">Instagram</a>
         <a class="btn outline" href="https://www.google.com/maps/search/?api=1&query=RJ+Motors+Bento+Ribeiro+Rio+de+Janeiro" target="_blank" rel="noopener">Como chegar</a>
       </div>
     </div>
   </section>
 </main>
-<footer><div class="wrap">© 2026 RJ Motors — Oficina Mecânica em Bento Ribeiro, Rio de Janeiro.</div></footer>
-<a class="float" href="https://wa.me/5521993827296?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20RJ%20Motors." target="_blank" rel="noopener">WhatsApp</a>
+
+<footer>
+  <div class="wrap">© 2026 RJ Motors — Oficina Mecânica em Bento Ribeiro, Rio de Janeiro.</div>
+</footer>
+
+<a class="float" href="https://wa.me/5521993827296?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20RJ%20Motors." onclick="return gtag_report_conversion(this.href)">WhatsApp</a>
+
 </body>
 </html>
